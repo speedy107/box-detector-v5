@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.cache
+.venv/
+node_modules/
+datasets/
+training/runs/
+training/ultralytics-config/
+training/resolved-data.yaml
+training/selected-v5.pt
+evaluation/validation-data.yaml
+evaluation/v4/
+evaluation/v5/

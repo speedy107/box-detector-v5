@@ -1,0 +1,17 @@
+{
+  "dataset_archive": "Blocks_Dataset_10x.zip",
+  "sha256": "101c8748f0e77405ad9c67217ec5271bfd6272cac81846277bd16573b647a3a4",
+  "verified_files": 3469,
+  "images": 1413,
+  "counts": {
+    "original_real": 162,
+    "real_positive_aug": 240,
+    "real_negative_aug": 211,
+    "small_block": 120,
+    "single_block": 120,
+    "multi_block": 100,
+    "occlusion": 80,
+    "stack": 180,
+    "synthetic_negative": 200
+  }
+}

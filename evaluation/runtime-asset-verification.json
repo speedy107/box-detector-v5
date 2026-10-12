@@ -1,0 +1,17 @@
+[
+  {
+    "file": "ort-wasm-simd-threaded.mjs",
+    "sha256": "745eb7c0ce6f18a6aa521971b2877babc7ffb27eecb58ab3bc6e5ef4692672e8",
+    "matches_npm_1_20_1": true
+  },
+  {
+    "file": "ort-wasm-simd-threaded.wasm",
+    "sha256": "207d02be4591c156b0a98f024f3d58005b5b04c92274d759fb390338c63559ea",
+    "matches_npm_1_20_1": true
+  },
+  {
+    "file": "ort.wasm.min.js",
+    "sha256": "e66568724f8848e57cc2a56e4bea3a5b86ce3ff81b2da11eac8ed7ab02b27bd4",
+    "matches_npm_1_20_1": true
+  }
+]

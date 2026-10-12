@@ -1,0 +1,711 @@
+[
+  {
+    "image": "images/train/occlusion_0073.jpg",
+    "split": "train",
+    "kind": "occlusion",
+    "targets": [
+      {
+        "class_id": 0,
+        "xyxy": [
+          212,
+          294,
+          264,
+          349
+        ],
+        "cutout_source": "blue_clip_03_frame_0001",
+        "visible_fraction": 0.9995836802664446,
+        "placement": [
+          212,
+          294
+        ],
+        "sprite_width": 52,
+        "sprite_brightness": 1.07963733926394,
+        "full_mask_xyxy": [
+          212,
+          294,
+          264,
+          349
+        ]
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          262,
+          291,
+          314,
+          346
+        ],
+        "cutout_source": "blue_clip_03_frame_0001",
+        "visible_fraction": 0.9954204829308909,
+        "placement": [
+          262,
+          291
+        ],
+        "sprite_width": 52,
+        "sprite_brightness": 0.9209749113320327,
+        "full_mask_xyxy": [
+          262,
+          291,
+          314,
+          346
+        ]
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          311,
+          295,
+          363,
+          350
+        ],
+        "cutout_source": "blue_clip_03_frame_0001",
+        "visible_fraction": 1.0,
+        "placement": [
+          311,
+          295
+        ],
+        "sprite_width": 52,
+        "sprite_brightness": 1.1021534199307461,
+        "full_mask_xyxy": [
+          311,
+          295,
+          363,
+          350
+        ]
+      }
+    ],
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.9901443719863892,
+        "xyxy": [
+          309.629150390625,
+          295.1064453125,
+          364.14013671875,
+          350.29437255859375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.9520264863967896,
+        "xyxy": [
+          211.17642211914062,
+          291.2424621582031,
+          314.3166809082031,
+          349.7211608886719
+        ]
+      }
+    ],
+    "thresholds": {
+      "0.25": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 2,
+        "passed": false
+      },
+      "0.35": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 2,
+        "passed": false
+      },
+      "0.5": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 2,
+        "passed": false
+      }
+    }
+  },
+  {
+    "image": "images/train/occlusion_0079.jpg",
+    "split": "train",
+    "kind": "occlusion",
+    "targets": [
+      {
+        "class_id": 0,
+        "xyxy": [
+          178,
+          298,
+          225,
+          348
+        ],
+        "cutout_source": "blue_clip_03_frame_0001",
+        "visible_fraction": 0.9611699445284921,
+        "placement": [
+          178,
+          298
+        ],
+        "sprite_width": 47,
+        "sprite_brightness": 0.9545209479511545,
+        "full_mask_xyxy": [
+          178,
+          298,
+          225,
+          348
+        ]
+      },
+      {
+        "class_id": 1,
+        "xyxy": [
+          220,
+          292,
+          266,
+          342
+        ],
+        "cutout_source": "red_clip_04_frame_0003",
+        "visible_fraction": 0.9948066935949221,
+        "placement": [
+          220,
+          292
+        ],
+        "sprite_width": 46,
+        "sprite_brightness": 1.0385246097917884,
+        "full_mask_xyxy": [
+          220,
+          292,
+          266,
+          342
+        ]
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          263,
+          307,
+          310,
+          355
+        ],
+        "cutout_source": "blue_clip_02_frame_0003",
+        "visible_fraction": 1.0,
+        "placement": [
+          263,
+          307
+        ],
+        "sprite_width": 47,
+        "sprite_brightness": 1.0275469638657952,
+        "full_mask_xyxy": [
+          263,
+          307,
+          310,
+          355
+        ]
+      }
+    ],
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.9919982552528381,
+        "xyxy": [
+          177.79183959960938,
+          293.11126708984375,
+          224.67758178710938,
+          347.2213134765625
+        ]
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.9907618165016174,
+        "xyxy": [
+          219.277099609375,
+          293.4689636230469,
+          266.27703857421875,
+          342.3697814941406
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.988650918006897,
+        "xyxy": [
+          263.4012145996094,
+          308.9660339355469,
+          308.5957946777344,
+          354.4444885253906
+        ]
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.4618469774723053,
+        "xyxy": [
+          257.800048828125,
+          296.8202819824219,
+          305.84716796875,
+          350.1700134277344
+        ]
+      }
+    ],
+    "thresholds": {
+      "0.25": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 0,
+        "passed": false
+      },
+      "0.35": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 0,
+        "passed": false
+      },
+      "0.5": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "passed": true
+      }
+    }
+  },
+  {
+    "image": "images/train/stack_0014.jpg",
+    "split": "train",
+    "kind": "stack",
+    "targets": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          176,
+          332,
+          240,
+          397
+        ],
+        "cutout_source": "red_clip_04_frame_0003",
+        "visible_fraction": 0.9225225225225225,
+        "placement": [
+          176,
+          328
+        ],
+        "sprite_width": 64,
+        "sprite_brightness": 1.0963379060865277,
+        "full_mask_xyxy": [
+          176,
+          328,
+          240,
+          397
+        ]
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          172,
+          274,
+          233,
+          343
+        ],
+        "cutout_source": "blue_clip_02_frame_0005",
+        "visible_fraction": 1.0,
+        "placement": [
+          172,
+          274
+        ],
+        "sprite_width": 61,
+        "sprite_brightness": 0.864869618147907,
+        "full_mask_xyxy": [
+          172,
+          274,
+          233,
+          343
+        ]
+      }
+    ],
+    "detections": [
+      {
+        "class_id": 1,
+        "confidence": 0.9924815893173218,
+        "xyxy": [
+          175.16403198242188,
+          330.833740234375,
+          239.20291137695312,
+          399.3804931640625
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.9903426170349121,
+        "xyxy": [
+          170.60964965820312,
+          274.40631103515625,
+          232.87246704101562,
+          344.94305419921875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.4569237232208252,
+        "xyxy": [
+          612.3739013671875,
+          22.868804931640625,
+          640.0,
+          111.27017211914062
+        ]
+      }
+    ],
+    "thresholds": {
+      "0.25": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 0,
+        "passed": false
+      },
+      "0.35": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 0,
+        "passed": false
+      },
+      "0.5": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "passed": true
+      }
+    }
+  },
+  {
+    "image": "images/train/stack_0081.jpg",
+    "split": "train",
+    "kind": "stack",
+    "targets": [
+      {
+        "class_id": 0,
+        "xyxy": [
+          189,
+          313,
+          333,
+          451
+        ],
+        "cutout_source": "blue_clip_02_frame_0003",
+        "visible_fraction": 0.9203723467330724,
+        "placement": [
+          188,
+          303
+        ],
+        "sprite_width": 146,
+        "sprite_brightness": 0.8484920963873616,
+        "full_mask_xyxy": [
+          188,
+          303,
+          334,
+          452
+        ]
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          192,
+          172,
+          335,
+          335
+        ],
+        "cutout_source": "blue_clip_02_frame_0005",
+        "visible_fraction": 1.0,
+        "placement": [
+          191,
+          171
+        ],
+        "sprite_width": 145,
+        "sprite_brightness": 1.0342407813581045,
+        "full_mask_xyxy": [
+          191,
+          171,
+          336,
+          336
+        ]
+      }
+    ],
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.9881827235221863,
+        "xyxy": [
+          190.35186767578125,
+          313.0048828125,
+          334.88238525390625,
+          451.672607421875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.9877983927726746,
+        "xyxy": [
+          190.74005126953125,
+          172.24549865722656,
+          335.388427734375,
+          334.066162109375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.4744091033935547,
+        "xyxy": [
+          190.3912353515625,
+          310.2458190917969,
+          334.247314453125,
+          373.7544860839844
+        ]
+      }
+    ],
+    "thresholds": {
+      "0.25": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 0,
+        "passed": false
+      },
+      "0.35": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 0,
+        "passed": false
+      },
+      "0.5": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "passed": true
+      }
+    }
+  },
+  {
+    "image": "images/train/stack_0105.jpg",
+    "split": "train",
+    "kind": "stack",
+    "targets": [
+      {
+        "class_id": 0,
+        "xyxy": [
+          214,
+          351,
+          325,
+          456
+        ],
+        "cutout_source": "blue_clip_02_frame_0003",
+        "visible_fraction": 0.8626368208263485,
+        "placement": [
+          213,
+          341
+        ],
+        "sprite_width": 113,
+        "sprite_brightness": 1.0153560751976087,
+        "full_mask_xyxy": [
+          213,
+          341,
+          326,
+          457
+        ]
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          212,
+          249,
+          322,
+          366
+        ],
+        "cutout_source": "blue_clip_03_frame_0001",
+        "visible_fraction": 1.0,
+        "placement": [
+          211,
+          248
+        ],
+        "sprite_width": 112,
+        "sprite_brightness": 1.02086850168018,
+        "full_mask_xyxy": [
+          211,
+          248,
+          323,
+          367
+        ]
+      }
+    ],
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.9679164886474609,
+        "xyxy": [
+          213.11376953125,
+          250.20111083984375,
+          321.4781494140625,
+          364.2325439453125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.9653847813606262,
+        "xyxy": [
+          214.99969482421875,
+          351.6329345703125,
+          323.72137451171875,
+          455.23773193359375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.885108232498169,
+        "xyxy": [
+          212.6865997314453,
+          322.5980224609375,
+          322.64166259765625,
+          401.8282470703125
+        ]
+      }
+    ],
+    "thresholds": {
+      "0.25": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 0,
+        "passed": false
+      },
+      "0.35": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 0,
+        "passed": false
+      },
+      "0.5": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 0,
+        "passed": false
+      }
+    }
+  },
+  {
+    "image": "images/train/stack_0151.jpg",
+    "split": "train",
+    "kind": "stack",
+    "targets": [
+      {
+        "class_id": 0,
+        "xyxy": [
+          345,
+          345,
+          402,
+          400
+        ],
+        "cutout_source": "blue_clip_02_frame_0003",
+        "visible_fraction": 0.9327032136105861,
+        "placement": [
+          345,
+          341
+        ],
+        "sprite_width": 58,
+        "sprite_brightness": 1.0874083314389256,
+        "full_mask_xyxy": [
+          345,
+          341,
+          403,
+          400
+        ]
+      },
+      {
+        "class_id": 1,
+        "xyxy": [
+          343,
+          296,
+          399,
+          354
+        ],
+        "cutout_source": "new_v4_1000340791",
+        "visible_fraction": 0.8396608920014744,
+        "placement": [
+          343,
+          290
+        ],
+        "sprite_width": 58,
+        "sprite_brightness": 1.0375121244807897,
+        "full_mask_xyxy": [
+          343,
+          290,
+          401,
+          354
+        ]
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          347,
+          242,
+          405,
+          304
+        ],
+        "cutout_source": "blue_clip_03_frame_0001",
+        "visible_fraction": 1.0,
+        "placement": [
+          347,
+          242
+        ],
+        "sprite_width": 58,
+        "sprite_brightness": 0.8153197559641387,
+        "full_mask_xyxy": [
+          347,
+          242,
+          405,
+          304
+        ]
+      }
+    ],
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.9801535606384277,
+        "xyxy": [
+          346.7503662109375,
+          242.16864013671875,
+          405.9097900390625,
+          304.93695068359375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.9798110127449036,
+        "xyxy": [
+          343.9365234375,
+          344.21142578125,
+          401.5892333984375,
+          401.48834228515625
+        ]
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.9052903056144714,
+        "xyxy": [
+          343.55706787109375,
+          295.85748291015625,
+          400.77764892578125,
+          352.39715576171875
+        ]
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.6865003108978271,
+        "xyxy": [
+          345.49951171875,
+          238.67236328125,
+          405.4266357421875,
+          302.9969482421875
+        ]
+      }
+    ],
+    "thresholds": {
+      "0.25": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 0,
+        "passed": false
+      },
+      "0.35": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 0,
+        "passed": false
+      },
+      "0.5": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 0,
+        "passed": false
+      }
+    }
+  }
+]

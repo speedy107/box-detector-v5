@@ -1,0 +1,8 @@
+{
+  "epoch": 4,
+  "old_pass": 60,
+  "old_total": 60,
+  "expanded_pass": 239,
+  "expanded_total": 240,
+  "validation_map50_95": 0.89975
+}

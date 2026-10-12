@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "image_label_pairs_checked": 1413,
+  "composite_instance_masks_checked": 600,
+  "original_validation_pairs_checked": 23,
+  "byte_identical_validation_vs_source": true,
+  "exact_train_validation_image_overlap": 0,
+  "training_instances_per_class": {
+    "blue_box": 678,
+    "red_box": 731
+  },
+  "small_block_min_side_at_320px_input": {
+    "min": 12.999999999999972,
+    "max": 42.0,
+    "median": 29.25
+  },
+  "all_composite_sources_training_only": true,
+  "balanced_sampling_original_fraction": 0.5,
+  "every_generated_background_has_both_target_classes_and_negative_examples": true,
+  "errors": [],
+  "model_accuracy_test_performed": false,
+  "visual_review": "All eight background assets and eight cutouts reviewed, plus 24 stratified samples, 20 targeted samples and 24 seeded random samples. Not every image was individually manually reviewed."
+}

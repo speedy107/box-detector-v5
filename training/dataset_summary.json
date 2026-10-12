@@ -1,0 +1,33 @@
+{
+  "training_images": 1390,
+  "validation_images": 23,
+  "original_training_images": 139,
+  "extra_training_images": 1251,
+  "expansion_factor": 10,
+  "generated_background_assets": 8,
+  "real_block_cutout_assets": 8,
+  "training_category_counts": {
+    "original_real": 139,
+    "real_positive_aug": 240,
+    "real_negative_aug": 211,
+    "small_block": 120,
+    "single_block": 120,
+    "multi_block": 100,
+    "occlusion": 80,
+    "stack": 180,
+    "synthetic_negative": 200
+  },
+  "training_positive_images": 904,
+  "training_background_images": 486,
+  "training_instances_per_class": {
+    "blue_box": 678,
+    "red_box": 731
+  },
+  "validation_unchanged": true,
+  "balanced_training_samples": 2502,
+  "balanced_original_sample_fraction": 0.5,
+  "new_real_test_set_available": false,
+  "model_retrained": false,
+  "accuracy_improvement_measured": false,
+  "seed": 10720261011
+}

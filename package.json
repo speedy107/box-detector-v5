@@ -1,0 +1,1 @@
+{"name":"box-detector-v5","version":"5.0.0","private":true,"type":"module","scripts":{"test:wasm":"node scripts/test_wasm.mjs"},"devDependencies":{"onnxruntime-web":"1.20.1","sharp":"0.34.5"}}

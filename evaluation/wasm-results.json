@@ -1,0 +1,368 @@
+{
+  "runtime": "onnxruntime-web 1.20.1 WASM in Node; repository decoder; not a browser UI test",
+  "confidence": 0.35,
+  "total": 60,
+  "passed": 60,
+  "outcomes": [
+    {
+      "image": "images/val/blue_clip_01_frame_0002.jpg",
+      "expected": 1,
+      "detected": 1,
+      "passed": true
+    },
+    {
+      "image": "images/val/blue_clip_01_frame_0003.jpg",
+      "expected": 1,
+      "detected": 1,
+      "passed": true
+    },
+    {
+      "image": "images/val/blue_clip_01_frame_0005.jpg",
+      "expected": 1,
+      "detected": 1,
+      "passed": true
+    },
+    {
+      "image": "images/val/blue_clip_01_frame_0007.jpg",
+      "expected": 1,
+      "detected": 1,
+      "passed": true
+    },
+    {
+      "image": "images/val/red_clip_01_frame_0001.jpg",
+      "expected": 1,
+      "detected": 1,
+      "passed": true
+    },
+    {
+      "image": "images/val/red_clip_01_frame_0004.jpg",
+      "expected": 1,
+      "detected": 1,
+      "passed": true
+    },
+    {
+      "image": "images/val/red_clip_01_frame_0005.jpg",
+      "expected": 1,
+      "detected": 1,
+      "passed": true
+    },
+    {
+      "image": "images/val/red_clip_01_frame_0006.jpg",
+      "expected": 1,
+      "detected": 1,
+      "passed": true
+    },
+    {
+      "image": "images/val/blue_clip_01_frame_0002_negative_top.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/val/blue_clip_01_frame_0002_negative_bottom.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/val/blue_clip_01_frame_0003_negative_top.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/val/blue_clip_01_frame_0003_negative_bottom.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/val/blue_clip_01_frame_0005_negative_top.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/val/blue_clip_01_frame_0007_negative_top.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/val/red_clip_01_frame_0001_negative_top.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/val/red_clip_01_frame_0001_negative_bottom.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/val/red_clip_01_frame_0004_negative_top.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/val/red_clip_01_frame_0004_negative_bottom.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/val/red_clip_01_frame_0005_negative_top.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/val/red_clip_01_frame_0005_negative_bottom.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/val/red_clip_01_frame_0005_negative_left.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/val/red_clip_01_frame_0006_negative_top.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/val/red_clip_01_frame_0006_negative_bottom.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v3_bag_and_blue_box.jpg",
+      "expected": 1,
+      "detected": 1,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v3_salwar_red_box_001.jpg",
+      "expected": 1,
+      "detected": 1,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v3_salwar_red_box_002.jpg",
+      "expected": 1,
+      "detected": 1,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v3_salwar_red_box_003.jpg",
+      "expected": 1,
+      "detected": 1,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v3_salwar_red_box_004.jpg",
+      "expected": 1,
+      "detected": 1,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v3_salwar_red_box_005.jpg",
+      "expected": 1,
+      "detected": 1,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v3_salwar_red_box_006.jpg",
+      "expected": 1,
+      "detected": 1,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v3_salwar_red_box_007.jpg",
+      "expected": 1,
+      "detected": 1,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v3_salwar_red_box_008.jpg",
+      "expected": 1,
+      "detected": 1,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v3_salwar_red_box_009.jpg",
+      "expected": 1,
+      "detected": 1,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v3_salwar_red_box_010.jpg",
+      "expected": 1,
+      "detected": 1,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v3_negative_bag_context.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v3_negative_bag_close.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v3_negative_salwar_only_001.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v3_negative_salwar_only_002.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v3_negative_salwar_only_003.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v3_negative_salwar_only_004.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v3_negative_salwar_only_005.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v3_negative_salwar_only_006.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v3_negative_salwar_only_007.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v3_negative_salwar_only_008.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v3_negative_salwar_only_009.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v3_negative_salwar_only_010.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v4_1000340791.jpg",
+      "expected": 1,
+      "detected": 1,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v4_1000340788.jpg",
+      "expected": 2,
+      "detected": 2,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v4_1000340787.jpg",
+      "expected": 2,
+      "detected": 2,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v4_1000340785.jpg",
+      "expected": 2,
+      "detected": 2,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v4_detail_1000340791.jpg",
+      "expected": 1,
+      "detected": 1,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v4_detail_1000340788.jpg",
+      "expected": 2,
+      "detected": 2,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v4_detail_1000340787.jpg",
+      "expected": 2,
+      "detected": 2,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v4_detail_1000340785.jpg",
+      "expected": 2,
+      "detected": 2,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v4_negative_chair_large.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v4_negative_chair_partial.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v4_negative_chair_close.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v4_negative_chairs_wide.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v4_negative_chair_back.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    },
+    {
+      "image": "images/train/new_v4_negative_chair_foreground.jpg",
+      "expected": 0,
+      "detected": 0,
+      "passed": true
+    }
+  ]
+}

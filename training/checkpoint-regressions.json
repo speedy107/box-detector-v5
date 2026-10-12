@@ -1,0 +1,74 @@
+[
+  {
+    "epoch": 1,
+    "old_pass": 60,
+    "old_total": 60,
+    "expanded_pass": 231,
+    "expanded_total": 240,
+    "validation_map50_95": 0.85955
+  },
+  {
+    "epoch": 2,
+    "old_pass": 60,
+    "old_total": 60,
+    "expanded_pass": 235,
+    "expanded_total": 240,
+    "validation_map50_95": 0.87753
+  },
+  {
+    "epoch": 3,
+    "old_pass": 60,
+    "old_total": 60,
+    "expanded_pass": 239,
+    "expanded_total": 240,
+    "validation_map50_95": 0.88574
+  },
+  {
+    "epoch": 4,
+    "old_pass": 60,
+    "old_total": 60,
+    "expanded_pass": 239,
+    "expanded_total": 240,
+    "validation_map50_95": 0.89975
+  },
+  {
+    "epoch": 5,
+    "old_pass": 60,
+    "old_total": 60,
+    "expanded_pass": 237,
+    "expanded_total": 240,
+    "validation_map50_95": 0.89524
+  },
+  {
+    "epoch": 6,
+    "old_pass": 60,
+    "old_total": 60,
+    "expanded_pass": 233,
+    "expanded_total": 240,
+    "validation_map50_95": 0.86952
+  },
+  {
+    "epoch": 7,
+    "old_pass": 60,
+    "old_total": 60,
+    "expanded_pass": 236,
+    "expanded_total": 240,
+    "validation_map50_95": 0.90285
+  },
+  {
+    "epoch": 8,
+    "old_pass": 60,
+    "old_total": 60,
+    "expanded_pass": 237,
+    "expanded_total": 240,
+    "validation_map50_95": 0.89991
+  },
+  {
+    "epoch": 9,
+    "old_pass": 60,
+    "old_total": 60,
+    "expanded_pass": 238,
+    "expanded_total": 240,
+    "validation_map50_95": 0.86617
+  }
+]

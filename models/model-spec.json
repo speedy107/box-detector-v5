@@ -1,0 +1,38 @@
+{
+  "classes": {
+    "0": "blue_box",
+    "1": "red_box"
+  },
+  "input": {
+    "name": "images",
+    "shape": [
+      1,
+      3,
+      320,
+      320
+    ],
+    "dtype": "float32",
+    "color": "RGB",
+    "normalization": "divide by 255",
+    "resize": "aspect-preserving letterbox to 320x320 with RGB(114,114,114) padding"
+  },
+  "output": {
+    "name": "output0",
+    "shape": [
+      1,
+      6,
+      2100
+    ],
+    "channels": [
+      "center_x",
+      "center_y",
+      "width",
+      "height",
+      "blue_box_score",
+      "red_box_score"
+    ],
+    "coordinates": "pixels in the 320x320 letterboxed input",
+    "postprocessing": "select maximum class score, threshold (default 0.35), class-aware NMS (IoU 0.45), then undo padding and scale",
+    "objectness_channel": false
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "created_utc": "2026-10-12T10:07:38.171433+00:00",
+  "epochs_completed": 9,
+  "selection": {
+    "epoch": 4,
+    "old_pass": 60,
+    "old_total": 60,
+    "expanded_pass": 239,
+    "expanded_total": 240,
+    "validation_map50_95": 0.89975
+  },
+  "dataset_train_images": 1390,
+  "validation_images": 23,
+  "balanced_training_positions": 2502,
+  "runtime": "CPU",
+  "initial_source_commit": "3874a735c3bb4539b0f22294c79b1c6091fd51bb",
+  "initial_v4_sha256": "ca7ab3a76a4cd1f01b96de5e873699e5f39eb7ff56cebba359af6def4fa4c298",
+  "stop_reason": "Nine completed epochs; retain the checkpoint with the strongest required regression checks.",
+  "validation": {
+    "v4": {
+      "precision": 0.984514045499636,
+      "recall": 1.0,
+      "map50": 0.995,
+      "map50_95": 0.8645811688311689,
+      "per_class_map50_95": [
+        0.8955,
+        0.8336623376623378
+      ]
+    },
+    "v5": {
+      "precision": 0.9862877077534937,
+      "recall": 1.0,
+      "map50": 0.995,
+      "map50_95": 0.89975,
+      "per_class_map50_95": [
+        0.9039999999999999,
+        0.8955
+      ]
+    }
+  },
+  "weight_updates": {
+    "changed_floating_point_tensors": 417,
+    "v4_sha256": "ca7ab3a76a4cd1f01b96de5e873699e5f39eb7ff56cebba359af6def4fa4c298",
+    "v5_sha256": "c35508816a56e49f630061c2085119e93085c4e786328bd9e8fc44242e4d6081"
+  },
+  "full_dataset_regression": {
+    "v4": {
+      "0.25": {
+        "tp": 1028,
+        "fp": 222,
+        "fn": 389,
+        "passed": 1097,
+        "total": 1413,
+        "precision": 0.8224,
+        "recall": 0.7254763585038815
+      },
+      "0.35": {
+        "tp": 1007,
+        "fp": 177,
+        "fn": 410,
+        "passed": 1104,
+        "total": 1413,
+        "precision": 0.8505067567567568,
+        "recall": 0.7106563161609033
+      },
+      "0.5": {
+        "tp": 957,
+        "fp": 120,
+        "fn": 460,
+        "passed": 1099,
+        "total": 1413,
+        "precision": 0.8885793871866295,
+        "recall": 0.6753705010585744
+      },
+      "by_split": {
+        "train": {
+          "passed": 1081,
+          "tp": 999,
+          "fp": 177,
+          "fn": 410,
+          "total": 1390
+        },
+        "val": {
+          "passed": 23,
+          "tp": 8,
+          "fp": 0,
+          "fn": 0,
+          "total": 23
+        }
+      }
+    },
+    "v5": {
+      "0.25": {
+        "tp": 1415,
+        "fp": 13,
+        "fn": 2,
+        "passed": 1400,
+        "total": 1413,
+        "precision": 0.9908963585434174,
+        "recall": 0.9985885673959068
+      },
+      "0.35": {
+        "tp": 1415,
+        "fp": 6,
+        "fn": 2,
+        "passed": 1407,
+        "total": 1413,
+        "precision": 0.995777621393385,
+        "recall": 0.9985885673959068
+      },
+      "0.5": {
+        "tp": 1415,
+        "fp": 3,
+        "fn": 2,
+        "passed": 1410,
+        "total": 1413,
+        "precision": 0.9978843441466855,
+        "recall": 0.9985885673959068
+      },
+      "by_split": {
+        "train": {
+          "passed": 1384,
+          "tp": 1407,
+          "fp": 6,
+          "fn": 2,
+          "total": 1390
+        },
+        "val": {
+          "passed": 23,
+          "tp": 8,
+          "fp": 0,
+          "fn": 0,
+          "total": 23
+        }
+      }
+    }
+  },
+  "onnx": {
+    "checked": true,
+    "validation_images": 23,
+    "input_shape": [
+      1,
+      3,
+      320,
+      320
+    ],
+    "output_shape": [
+      1,
+      6,
+      2100
+    ],
+    "max_coordinate_error": 0.0010223388671875,
+    "max_class_score_error": 2.086162567138672e-06,
+    "sha256": "ac8a9ae6abab1954c7d9f6a31348315db5325650ec1afec77556c1acc506fba5"
+  },
+  "wasm": {
+    "runtime": "onnxruntime-web 1.20.1 WASM in Node; repository decoder; not a browser UI test",
+    "confidence": 0.35,
+    "total": 60,
+    "passed": 60
+  },
+  "repository_url": "https://github.com/speedy107/box-detector-v5"
+}

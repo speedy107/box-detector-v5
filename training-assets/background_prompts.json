@@ -1,0 +1,50 @@
+[
+  {
+    "name": "classroom_chairs",
+    "prompt": "Photorealistic ordinary Indian college robotics classroom, camera 45 cm above the floor looking slightly downward. Grey speckled floor occupying the lower 65 percent, orange wall, two red plastic chairs off to the sides, desks and fluorescent lights in back. A clear flat floor patch in foreground for later object placement. Natural imperfect smartphone photograph, moderate lens distortion and realistic texture. No blocks, no cubes, no boxes, no toys, no logos, no readable text. One full-frame landscape photograph, not a collage.",
+    "method": "built-in image_gen",
+    "review": "Visually reviewed; no target blocks present."
+  },
+  {
+    "name": "workshop_bags",
+    "prompt": "Photorealistic college robotics workshop seen from a low robot camera 40 cm above the ground. Grey concrete floor occupying lower two thirds, scattered cables at edge, blue fabric backpack beside a workbench, a red jacket draped over a stool in background, practical fluorescent light. Empty unobstructed central foreground floor for later placement. Natural smartphone image, ordinary untidy environment. No blocks, no cubes, no cardboard boxes, no robots, no readable text, no collage.",
+    "method": "built-in image_gen",
+    "review": "Visually reviewed; no target blocks present."
+  },
+  {
+    "name": "arena_bright",
+    "prompt": "Photorealistic indoor university robotics practice arena viewed by a robot camera 35 cm above floor. Matte pale-green vinyl floor in lower two thirds, simple white boundary tape, distant metal railings, people wearing red and blue shirts far behind the boundary. Open central foreground. Strong daylight from high windows, realistic mild glare. No cubes, no blocks, no boxes or other target objects. Natural unstyled photograph, no text or collage.",
+    "method": "built-in image_gen",
+    "review": "Visually reviewed; no target blocks present."
+  },
+  {
+    "name": "chairs_close",
+    "prompt": "Photorealistic low-angle smartphone photograph of several ordinary red molded plastic chairs and one blue upholstered chair in a college hall. Camera around 40 cm above floor, grey tiled floor covers the lower 60 percent with clear empty floor in center foreground. Chairs at left and right and in the far background; chair seats visible. Indoor mixed daylight and fluorescent lighting. No blocks, cubes, boxes or toy bricks, no readable text, no collage.",
+    "method": "built-in image_gen",
+    "review": "Visually reviewed; no target blocks present."
+  },
+  {
+    "name": "warehouse_dim",
+    "prompt": "Use case: photorealistic-natural. Asset type: object-detection dataset background. One landscape smartphone photo of an industrial storage room from a low 45 cm robot camera. Empty rough concrete floor in lower 65 percent, wire shelving at far sides holding red and blue plastic buckets, metal tools, coiled hoses, no cuboid storage containers. Dim tungsten and overhead fluorescent lighting, realistic sensor grain. Clear central floor for later object insertion. No blocks, no cubes, no cardboard boxes, no logos, no text, no collage.",
+    "method": "built-in image_gen",
+    "review": "Visually reviewed; no target blocks present."
+  },
+  {
+    "name": "hall_backlight",
+    "prompt": "Use case: photorealistic-natural. Asset type: object-detection dataset background. A single ordinary smartphone photograph of a college corridor from a robot camera 40 cm above the floor. Grey ceramic tiles dominate lower 65 percent. White walls, open doorway with bright window light in the back, red fabric backpack and blue cloth tote lying near the wall on opposite sides. Clear foreground floor, strong side lighting and realistic shadows, slight underexposure. No cubes, blocks, boxes, rectangular packages, text or collage.",
+    "method": "built-in image_gen",
+    "review": "Visually reviewed; no target blocks present."
+  },
+  {
+    "name": "arena_dark",
+    "prompt": "Use case: photorealistic-natural. Asset type: object-detection dataset background. Single landscape candid smartphone photograph from a robot camera 35 cm above the ground inside a modest college robotics practice hall. Dark navy matte floor lower 65 percent with subtle white tape at far edge, red plastic chairs at far left, a person wearing a blue shirt far right, plain light-grey wall and distant equipment. Central empty floor. Low evening fluorescent light, realistic noise and slight optical softness. No cubes, blocks or boxes, no logos, no readable text, no collage.",
+    "method": "built-in image_gen",
+    "review": "Visually reviewed; no target blocks present."
+  },
+  {
+    "name": "workshop_clutter",
+    "prompt": "Use case: photorealistic-natural. Asset type: object-detection dataset background. Single landscape smartphone photograph of a busy university fabrication lab from camera 45 cm above ground. Beige dusty tiled floor in lower two thirds with an open central patch, workbenches at far sides, red round bucket near left wall, blue cylindrical barrel at right wall, red jackets and blue bags hanging off chairs in background. Mixed warm and cool fluorescent lighting. Natural imperfections, realistic shadows and texture. No cubes, no blocks, no cardboard boxes or rectangular storage containers, no readable text, no collage.",
+    "method": "built-in image_gen",
+    "review": "Visually reviewed; no target blocks present."
+  }
+]
